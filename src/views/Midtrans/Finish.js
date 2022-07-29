@@ -58,7 +58,7 @@ class Finish extends Component {
             <img src={Logo} className="rounded mx-auto d-block" alt="logo" />
             <Card>
               <CardHeader tag="h4" align="center">
-                Selamat Transaksi Anda Sleesai
+                Selamat Transaksi Anda Selesai
               </CardHeader>
               <CardBody className="text-center">
                 <p>

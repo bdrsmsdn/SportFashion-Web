@@ -180,7 +180,7 @@ export const deleteLiga = (image, id) => {
           .ref("ligas/" + id)
           .remove()
           .then(() => {
-            dispatchSuccess(dispatch, DELETE_LIGA, "Liga Sukses Dihapus");
+            dispatchSuccess(dispatch, DELETE_LIGA, "Liga Berhasil Dihapus");
           })
           .catch((error) => {
             dispatchError(dispatch, DELETE_LIGA, error);

@@ -53,7 +53,7 @@ function Sidebar(props) {
     >
       <div className="logo">
           <a
-            href="https://www.creative-tim.com"
+            href="https://admin-jersipedia666.netlify.app/"
             className="simple-text logo-mini"
           >
             <div className="logo-img">
@@ -61,10 +61,10 @@ function Sidebar(props) {
             </div>
           </a>
           <a
-            href="https://www.creative-tim.com"
+            href="https://admin-jersipedia666.netlify.app/"
             className="simple-text logo-normal"
           >
-            Admin Jersipedia
+            Adm SportFashion
           </a>
         </div>
       <div className="sidebar-wrapper" ref={sidebar}>

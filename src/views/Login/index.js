@@ -45,7 +45,7 @@ class Login extends Component {
       //action login
       this.props.dispatch(loginUser(email, password));
     } else {
-      swal("Failed", "Maaf Email dan Password Harus Diisi", "error");
+      swal("Gagal!", "Email dan Password harus diisi!", "error");
     }
   };
 
